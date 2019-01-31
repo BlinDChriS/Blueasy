@@ -1,0 +1,641 @@
+
+@font-face {
+  font-family: "Segoe", sans-serif;
+  src: url('../fonts/segoeui.ttf') format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeLight", sans-serif;
+  src: url('../fonts/seguili.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BitterBold", sans-serif;
+  src: url('../fonts/Bitter-Bold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #515f67;
+  font-family: "Segoe UI", sans-serif;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+
+a {
+  color: #515f67;
+}
+a:link:hover {
+  color: #4bcaff !important;
+  transition: .5s ease;
+}
+a:visited {
+  color: #515f67;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 75px;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  color: #fff;
+  display: inline;
+}
+h1 span {
+  position: relative;
+}
+
+h2 {
+  font-family: "SegoeLight", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 28px;
+  border-style: solid;
+  border-bottom: thick line #fff;
+  padding-bottom: 4px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 45px;
+}
+h3 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  font-stretch: condensed;
+  font-weight: bold;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  padding: 10px,10px,10px,0px;
+}
+
+p {
+  font-family: "Segoe", sans-serif;
+  font-size: 12px
+}
+
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: "#000";
+  background-size: cover;
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#content {
+  background-color: #130d0a;
+}
+
+
+
+
+/* ===================================== */
+/* =====           NAVBAR          ===== */
+/* ===================================== */
+
+#navbarlogo {
+
+  font-size: 20px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#navbarlogo:hover {
+  text-shadow: 0 0 2px #fff;
+}
+
+.navbar {
+  min-height: 80px;
+}
+.navbarbg {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 6px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-width:2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(75, 202, 255);
+  border-color: #4bcaff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: rgb(75, 202, 255);
+  border-width:2px;
+  border-style: solid;
+  border-color: #4bcaff;
+  background-color: #fff;
+}
+
+.nav-link:hover {
+ color: rgb(75, 202, 255);
+ border-width:2px;
+ border-style: solid;
+ border-color: #4bcaff;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.nav-item active {  
+ color: rgb(75, 202, 255);
+ border-width:2px;
+ border-style: solid;
+ border-color: #4bcaff;
+}
+
+.navbar-toggler {
+  line-height: 1;
+  border: 2px solid;
+  border-radius: 0rem
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  border: 2px solid #4bcaff;
+}
+
+
+
+/* ===================================== */
+/* =====            HERO           ===== */
+/* ===================================== */
+
+#Hero {
+  background: #353f46 url(../img/bghero.jpg) fixed center no-repeat;
+/*   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+/*   filter: grayscale(100%);   */
+  min-height: 800px;
+  color: #fff;
+  background-size: cover;
+}
+
+#Hero-text {
+  text-align: center;
+}
+
+
+
+
+
+/* ===================================== */
+/* =====          SERVICES         ===== */
+/* ===================================== */
+
+#Services {
+  background: #4bcaff;
+  min-height: 400px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.servicesText {
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  font-size: 12px
+}
+
+
+
+
+
+/* ===================================== */
+/* =====         PORTFOLIO         ===== */
+/* ===================================== */
+
+
+img { border-radius: 0px; cursor: pointer; }
+
+#Portfolio {
+  background: #fff;
+  min-height: 840px;
+  color: #515f67;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.portfolioText {
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  font-size: 11px
+}
+
+.gallery-item {
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.gallery-item:hover {
+  filter: brightness(.3);
+  -webkit-filter: brightness(.2);
+  transition: .5s ease;
+  background-image: url('../img/portfolio-hover.png') no-repeat;
+}
+
+.img-fluid {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/* ===================================== */
+/* =====          SECTION          ===== */
+/* ===================================== */
+
+#Section {
+  background: #515f67;
+}
+
+#Section {
+  padding-top: 40px;
+}
+
+.sectionText {
+  font-family: "Segoe", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+
+/* ======================= Section button ======================== */
+
+.sectionBtn {
+  background-color: #515f67;
+  color: #353f46;
+  border: 2px solid rgb(53, 63, 70);
+  border-radius: 0px;
+  padding: 9px 30px;
+  display: inline-block;
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  margin-bottom: 20px;
+}
+.sectionBtn:hover {
+  color: #353f46;
+  box-shadow: inset 400px 0 0 0 #fff;
+}
+
+
+
+
+
+/* ===================================== */
+/* =====          TWITTER          ===== */
+/* ===================================== */
+
+#Twitter {
+  background: #4bcaff;
+  min-height: 300px;
+  color: #fff;
+}
+
+.twitter {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 28px;
+  border-style: solid;
+  border-bottom: thick line #fff;
+  padding-bottom: 4px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.twitterText {
+  font-family: "SegoeLight", sans-serif;
+  font-size: 30px;
+}
+
+.fab {
+  font-size: 30px;
+}
+.awesome {
+  padding-left: 70px;
+  padding-right: 70px;
+  border-width:2px;
+  border-style: solid;
+  color: #fff;
+  border-color: #fff;
+  font-size: 30px;
+  padding: 12px;
+  margin-right: 16px;
+}
+
+.awesome:hover {
+  color: #4bcaff;
+  border-color: #4bcaff;
+}
+
+.whotext {
+  margin-top: 20px;
+}
+
+
+
+/* ===================================== */
+/* =====          WHO IS ?         ===== */
+/* ===================================== */
+
+#Whois {
+  background: #353f46 url(../img/bgwhois.jpg) fixed center no-repeat;
+/*   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+/*   filter: grayscale(100%);   */
+  min-height: 500px;
+  color: #fff;
+  background-size: cover;
+}
+
+#Whois-text {
+  font-family: "Segoe", sans-serif;
+  font-size: 14px;
+}
+
+
+
+
+
+/* ===================================== */
+/* =====        TESTIMONIALS       ===== */
+/* ===================================== */
+
+#Testimonials {
+  background: #fff;
+  min-height: 300px;
+  color: #515f67;
+  padding-bottom: 40px;
+}
+
+.testimonialsText {
+  font-family: "SegoeLight", sans-serif;
+  font-size: 24px;
+}
+.testicon {
+  font-family: "BitterBold", serif;
+  font-size: 70px;
+}
+.testiSignature {
+  font-family: "SegoeLight", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #4bcaff !important; 
+}
+
+
+
+
+
+/* ===================================== */
+/* =====          CONTACT          ===== */
+/* ===================================== */
+
+#Contact {
+  background: url(../img/bgcontact.jpg) fixed center no-repeat;
+  min-height: 800px;
+  color: #fff;
+  background-size: cover;
+}
+
+.contactText {
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+/* ======================= Forms design ======================== */
+
+.form-group {
+  vertical-align: text-bottom !important
+}
+
+.formContact {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 10px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  border-radius: 0px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.formContact2 {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 100px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  border-radius: 0px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.formText {
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* ======================= Contact button ======================== */
+
+.contactBtn {
+  background-color: #4bcaff;
+  color: #fff;
+  border-radius: 0px;
+  padding: 12px 100px;
+  display: inline-block;
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  margin-bottom: 20px;
+}
+.contactBtn:hover {
+  color: #4bcaff;
+  background-color: #fff;
+  box-shadow: inset 400px 0 0 0 #fff;
+}
+
+
+
+
+
+/* ===================================== */
+/* =====           FOOTER          ===== */
+/* ===================================== */
+
+#Footer {
+  
+  background: #353f46;
+  min-height: 170px;
+  font-size: 11px;
+  font-family: "SegoeSemiBold", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Footer-text {
+  color: #515f67;
+}
+.Footer-text:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+/* ===================================== */
+/* =====  MEDIA QUERIES AND STUFF  ===== */
+/* ===================================== */
+
+@media screen and (max-width: 991px) {
+  .container-fluid {
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
+  h1 {
+      font-size: 24px;
+      line-height: 65px;
+  }
+
+
+  .twitterText {
+    font-size: 25px
+  }
+
+  .nav-link {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .gallery-item {
+    width: 210px;
+    height: 210px;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .container-fluid {
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
+  h1 {
+      font-size: 14px;
+      line-height: 45px;
+  }
+  .gallery-item {
+    width: 180px;
+    height: 180px;
+  }
+  
+.twitterText {
+  font-size: 20px
+}
+
+}
+
+.icon {
+  color: #fff;
+  display: block;
+  height: 48px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+
+/* The end.
